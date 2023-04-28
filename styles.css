@@ -80,18 +80,6 @@ body {
     background-color: var(--clr-bg);
 }
 
-.light {
-    --clr-bg: #fcfcfc;
-    --clr-bg-alt: #fff;
-    --clr-fg: #555;
-    --clr-fg-alt: #444;
-    --clr-primary: #2978b5;
-    --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    --clr-tablink: #2978b5;
-    --clr-tab-bg: white;
-    --clr-tab-bg-active: whitesmoke;
-}
-
 
 .dark {
     --clr-bg: #23283e;
@@ -105,7 +93,17 @@ body {
     --clr-tab-bg: #2a2f4c;
     --clr-tab-bg-active: #23283e;
 }
-
+.light {
+    --clr-bg: #fcfcfc;
+    --clr-bg-alt: #fff;
+    --clr-fg: #555;
+    --clr-fg-alt: #444;
+    --clr-primary: #2978b5;
+    --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    --clr-tablink: #2978b5;
+    --clr-tab-bg: white;
+    --clr-tab-bg-active: whitesmoke;
+}
 /*#23283e, #2a2f4c*/
 /* Style the tab */
 .tab {
@@ -509,6 +507,10 @@ main {
     .about {
         align-items: flex-start;
         margin-top: 2em;
+    }
+
+    #experience {
+        margin-top: 30px;
     }
 
     .footer {
