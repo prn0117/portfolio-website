@@ -93,7 +93,8 @@ body {
     --clr-tab-bg: #2a2f4c;
     --clr-tab-bg-active: #23283e;
 }
-.light {
+
+/* .light {
     --clr-bg: #fcfcfc;
     --clr-bg-alt: #fff;
     --clr-fg: #555;
@@ -103,7 +104,7 @@ body {
     --clr-tablink: #2978b5;
     --clr-tab-bg: white;
     --clr-tab-bg-active: whitesmoke;
-}
+} */
 /*#23283e, #2a2f4c*/
 /* Style the tab */
 .tab {
